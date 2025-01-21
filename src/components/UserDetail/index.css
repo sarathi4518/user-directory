@@ -1,0 +1,147 @@
+.Ui-bg {
+  min-height: 100vh;
+  background-color: #dee2fe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 30px;
+  color: #6f00ff;
+}
+
+ul {
+  list-style: none;
+}
+
+* {
+  margin: 0;
+}
+
+.user-detail {
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+  color: #7e2675;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 450px;
+  margin: 20px auto;
+  font-family: "Arial", sans-serif;
+  transition: transform 0.3s ease;
+}
+
+.user-detail:hover {
+  transform: translateY(-5px);
+}
+
+.user-detail h1 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.user-detail h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 15px 0 10px;
+  text-transform: capitalize;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 5px;
+  width: fit-content;
+}
+h3 {
+  color: #6f00ff;
+}
+
+.user-detail p {
+  margin: 8px 0;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.user-detail strong {
+  color: #24231e;
+}
+
+.user-detail a {
+  color: #ffa159;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px dotted #ffdd59;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.user-detail a:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.user-detail h1::after {
+  content: "";
+  display: block;
+  margin: 10px auto;
+  width: 50px;
+  height: 3px;
+  background: #ffd700;
+  border-radius: 2px;
+}
+
+.user-detail h3::after {
+  content: "";
+  display: block;
+  margin-top: 5px;
+  width: 30px;
+  height: 2px;
+  background: #ffdd59;
+}
+
+.user-detail p > span {
+  display: inline-block;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-left: 5px;
+}
+
+button {
+  background-color: rgb(255, 0, 225);
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 7px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.loader-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #dee2fe;
+}
+
+.error-image {
+  height: 300px;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.error-container h1 {
+  font-size: 30px;
+  color: #444ce1;
+}
+
+.error-container p {
+  font-size: 20px;
+}
